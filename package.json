@@ -1,0 +1,18 @@
+{
+  "name": "aura-finance-ai",
+  "version": "1.0.0",
+  "description": "AI-Powered Financial Intelligence Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:java": "cd aura-platform-java && mvn spring-boot:run",
+    "build:java": "cd aura-platform-java && mvn clean package -DskipTests",
+    "preinstall": "cd aura-platform && npm install --legacy-peer-deps"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "author": "Team Trinethra",
+  "license": "MIT"
+}
+
