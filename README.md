@@ -1,6 +1,4 @@
-<div align="center">
-
-# 🚀 AURA — AI-Powered Financial Intelligence Platform
+# AURA — AI-Powered Financial Intelligence Platform
 
 **Your Personal AI Financial Advisor for India**
 
@@ -11,88 +9,86 @@ _Powered by Azure OpenAI GPT-4.1 & a Multi-Agent Architecture, with real-time da
 [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)](https://mongodb.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-[![GitHub](https://img.shields.io/badge/GitHub-paridhi%20raghuvanshi-181717?style=for-the-badge&logo=github)](https://github.com/paridhi-raghuvanshi/AI-Powered-Financial-Intelligence-)
+[![GitHub](https://img.shields.io/badge/GitHub-paridhi%20raghuvanshi-181717?style=for-the-badge&logo=github)](https://github.com/paridhi-raghuvanshi/AI-Powered-Financial-Intelligence-.git)
 [![Live Demo](https://img.shields.io/badge/Live-aura--finance--ai.azurewebsites.net-00D4FF?style=for-the-badge)](https://aura-finance-ai.azurewebsites.net)
-
-</div>
 
 ---
 
-## 🎬 Video Walkthrough
+## Video Walkthrough
 
 See AURA in action!
 
 https://github.com/user-attachments/assets/9b51bcbc-746c-40b7-bed6-de4b6bc509ea
 
-> 🔇 **Note:** GitHub-hosted videos are muted by default due to browser restrictions — please unmute to hear the audio.
+> **Note:** GitHub-hosted videos are muted by default due to browser restrictions — please unmute to hear the audio.
 
 <p align="center">
-  ▶️ Prefer YouTube? <a href="https://youtu.be/3q4uTliRNr8"><strong>Watch it here</strong></a>
+  Prefer YouTube? <a href="https://youtu.be/3q4uTliRNr8"><strong>Watch it here</strong></a>
 </p>
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Overview](#-overview)
-- [Features](#-features)
-- [Architecture](#-architecture)
-- [AI Agents](#-ai-agents)
-- [Quick Start](#-quick-start)
-- [Deployment](#-deployment)
-- [API Reference](#-api-reference)
-- [Project Structure](#-project-structure)
-- [Configuration](#-configuration)
-- [Security](#-security-features)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Acknowledgments](#-acknowledgments)
+- [Overview](#overview)
+- [Features](#features)
+- [Architecture](#architecture)
+- [AI Agents](#ai-agents)
+- [Quick Start](#quick-start)
+- [Deployment](#deployment)
+- [API Reference](#api-reference)
+- [Project Structure](#project-structure)
+- [Configuration](#configuration)
+- [Security](#security-features)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ---
 
-## 🎯 Overview
+## Overview
 
 **AURA** is an advanced AI-powered financial intelligence platform that combines **5 specialized AI agents** with real-time financial data from the **Fi.Money MCP** to deliver personalized financial strategies, quantitative analysis, and actionable insights for Indian investors.
 
-### 🌟 Key Highlights
+### Key Highlights
 
-- 🤖 **Multi-Agent AI** — five specialized financial AI agents working in orchestration
-- 📊 **Real-Time Data** — live financial data via Fi.Money MCP integration
-- 🗄️ **MongoDB Atlas** — persistent storage for users, chat history, and analyses
-- ☁️ **Azure Deployment** — deployed on Microsoft Azure App Service
-- 📱 **Modern UI** — responsive design with glass-morphism aesthetics
-- ⚡ **Real-Time Chat** — interactive financial consultation with live progress tracking
-- 🔒 **Secure Auth** — Google OAuth + email-based authentication
+- Multi-Agent AI — five specialized financial AI agents working in orchestration
+- Real-Time Data — live financial data via Fi.Money MCP integration
+- MongoDB Atlas — persistent storage for users, chat history, and analyses
+- Azure Deployment — deployed on Microsoft Azure App Service
+- Modern UI — responsive design with glass-morphism aesthetics
+- Real-Time Chat — interactive financial consultation with live progress tracking
+- Secure Auth — Google OAuth + email-based authentication
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Capabilities
 
 | Feature | Description | Status |
 |---|---|---|
-| **Multi-Agent AI** | 5 specialized agents for comprehensive analysis | ✅ |
-| **Fi.Money MCP** | Real-time financial data integration | ✅ |
-| **RAG Knowledge Base** | Financial knowledge retrieval | ✅ |
-| **Portfolio Analytics** | Net worth, investments, transactions | ✅ |
-| **Credit Reports** | Credit score and history | ✅ |
-| **Chat History** | Persistent, user-isolated conversations | ✅ |
-| **Demo Accounts** | 3 pre-configured demo profiles | ✅ |
-| **Google OAuth** | Secure authentication | ✅ |
+| Multi-Agent AI | 5 specialized agents for comprehensive analysis | ✅ |
+| Fi.Money MCP | Real-time financial data integration | ✅ |
+| RAG Knowledge Base | Financial knowledge retrieval | ✅ |
+| Portfolio Analytics | Net worth, investments, transactions | ✅ |
+| Credit Reports | Credit score and history | ✅ |
+| Chat History | Persistent, user-isolated conversations | ✅ |
+| Demo Accounts | 3 pre-configured demo profiles | ✅ |
+| Google OAuth | Secure authentication | ✅ |
 
 ### Dashboard Features
 
-- 💰 **Net Worth Tracking** — real-time portfolio valuation
-- 📈 **Investment Analysis** — mutual funds & stocks breakdown
-- 💳 **Credit Score** — credit report integration
-- 📋 **Transaction History** — recent financial activity
-- 🎯 **Portfolio Chart** — visual asset allocation
-- 🔀 **Profile Shuffle** — switch between demo MCP profiles
+- Net Worth Tracking — real-time portfolio valuation
+- Investment Analysis — mutual funds & stocks breakdown
+- Credit Score — credit report integration
+- Transaction History — recent financial activity
+- Portfolio Chart — visual asset allocation
+- Profile Shuffle — switch between demo MCP profiles
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -102,8 +98,8 @@ https://github.com/user-attachments/assets/9b51bcbc-746c-40b7-bed6-de4b6bc509ea
 │  │   Chat UI   │  │  Dashboard  │  │ Onboarding  │          │
 │  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘          │
 │         │                │                 │                 │
-│  ┌──────┴────────────────┴─────────────────┴──────┐          │
-│  │              Express.js + Socket.IO             │          │
+│  ┌──────┴───────────────────────────────────────┴──────┐          │
+│  │              Spring Boot (REST) + WebSocket            │          │
 │  └──────┬────────────────┬─────────────────┬──────┘          │
 │         │                │                 │                 │
 │  ┌──────┴──────┐  ┌──────┴──────┐  ┌──────┴──────┐          │
@@ -125,17 +121,17 @@ https://github.com/user-attachments/assets/9b51bcbc-746c-40b7-bed6-de4b6bc509ea
 
 ---
 
-## 🤖 AI Agents
+## AI Agents
 
 AURA's intelligence comes from **5 specialized AI agents** powered by Azure OpenAI GPT-4.1:
 
 | Agent | Role | Capabilities |
 |---|---|---|
-| 🎯 **Strategist** | Financial Planning | Goal planning, risk assessment, asset allocation |
-| 🔢 **Quant** | Quantitative Analysis | XIRR/CAGR calculations, volatility analysis |
-| ⚡ **Doer** | Implementation | Action plans, platform guidance, timelines |
-| 📈 **Realist** | Market Intelligence | Data validation, market insights |
-| 💬 **Communicator** | User Engagement | Personalized responses, progress updates |
+| **Strategist** | Financial Planning | Goal planning, risk assessment, asset allocation |
+| **Quant** | Quantitative Analysis | XIRR/CAGR calculations, volatility analysis |
+| **Doer** | Implementation | Action plans, platform guidance, timelines |
+| **Realist** | Market Intelligence | Data validation, market insights |
+| **Communicator** | User Engagement | Personalized responses, progress updates |
 
 ### Agent Execution Strategy
 
@@ -147,14 +143,14 @@ AURA's intelligence comes from **5 specialized AI agents** powered by Azure Open
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
-- **Java** 21+
-- **Maven** 3.9+
-- **MongoDB** (Atlas or local)
-- **Azure OpenAI** API access
+- Java 21+
+- Maven 3.9+
+- MongoDB (Atlas or local)
+- Azure OpenAI API access
 
 ### Local Development
 
@@ -215,17 +211,9 @@ PORT=3000
 | Dashboard | http://localhost:3000/dashboard.html |
 | API Health | http://localhost:3000/api/health |
 
-### Demo Accounts
-
-| Profile | Phone | Description |
-|---|---|---|
-| 📈 Growth Investor | `2222222222` | Large mutual fund portfolio |
-| 🛡️ Conservative Saver | `8888888888` | Stable, low-risk investments |
-| 🚀 Aggressive Trader | `4444444444` | High-risk portfolio |
-
 ---
 
-## ☁️ Deployment
+## Deployment
 
 ### Azure App Service
 
@@ -257,7 +245,7 @@ az webapp deployment source config --name aura-finance --resource-group aura-rg 
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 ### Chat API
 
@@ -306,66 +294,48 @@ Content-Type: application/json
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-```
+```text
 AURA-THE-FINANCE-AI/
-├── aura-platform/                  # Main Node.js application
-│   ├── agents/                     # AI agent implementations
-│   │   ├── strategist.js           # Strategic planning
-│   │   ├── quant.js                # Quantitative analysis
-│   │   ├── doer.js                 # Action planning
-│   │   ├── realist.js              # Market intelligence
-│   │   └── communicator.js         # User communication
-│   ├── orchestrator/
-│   │   └── agent-orchestrator.js   # Multi-agent coordination
-│   ├── services/
-│   │   ├── fi-mcp-client.js        # Fi.Money MCP client
-│   │   ├── mongodb-service.js      # Database operations
-│   │   ├── openai-service.js       # Azure OpenAI client
-│   │   ├── rag-service.js          # Knowledge retrieval
-│   │   └── logger.js               # Logging service
-│   ├── public/
-│   │   ├── index.html              # Main landing + chat
-│   │   ├── dashboard.html          # Financial dashboard
-│   │   ├── auth.html               # Authentication
-│   │   └── onboarding.html         # User onboarding
-│   ├── server.js                   # Express server
-│   ├── package.json
-│   └── env.sample                  # Environment template
-├── fi-mcp-dev/                     # Fi.Money MCP server (Node.js)
-│   ├── main.js                     # MCP server
-│   └── package.json
+├── aura-platform-java/               # Spring Boot backend
+│   ├── src/main/java/...            # Java source files
+│   └── pom.xml
+├── aura-platform/                    # Front‑end (Vite)
+│   ├── public/ ...
+│   └── src/ ...
+├── fi-mcp-dev/                       # Fi.Money MCP server (Node.js)
+│   └── ...
 └── README.md
 ```
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### Tech Stack
 
 | Component | Technology |
 |---|---|
-| **AI Model** | Azure OpenAI GPT-4.1 |
-| **Backend** | Java 21 + Spring Boot |
-| **Real-time** | Socket.IO |
-| **Database** | MongoDB Atlas |
-| **Financial Data** | Fi.Money MCP |
-| **Authentication** | Google OAuth + Email |
-| **Deployment** | Azure App Service |
+| AI Model | Azure OpenAI GPT-4.1 |
+| Backend | Java 21 + Spring Boot |
+| Real-time | WebSocket |
+| Database | MongoDB Atlas |
+| Financial Data | Fi.Money MCP |
+| Authentication | Google OAuth + Email |
+| Deployment | Azure App Service |
 
-## 🔐 Security Features
+## Security Features
 
-- ✅ Rate limiting (100 requests / 15 min)
-- ✅ CORS protection
-- ✅ Helmet security headers
-- ✅ User-isolated chat history
-- ✅ Secure API key handling
+- Rate limiting (100 requests / 15 min)
+- CORS protection
+- Helmet security headers
+- User-isolated chat history
+- Secure API key handling
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -377,28 +347,19 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-- **Microsoft Azure** for cloud infrastructure
-- **OpenAI** for the GPT-4.1 language model
-- **Fi.Money** for MCP financial data integration
-- **MongoDB** for database services
+- Microsoft Azure for cloud infrastructure
+- OpenAI for the GPT-4.1 language model
+- Fi.Money for MCP financial data integration
+- MongoDB for database services
 
 ---
 
-<div align="center">
-
-**Built with ❤️ by Paridhi Raghuvanshi**
-
-[![GitHub](https://img.shields.io/badge/GitHub-paridhi-raghuvanshi-181717?style=for-the-badge&logo=github)](https://github.com/paridhi-raghuvanshi/AI-Powered-Financial-Intelligence-.git)
-[![Live Demo](https://img.shields.io/badge/Live-aura--finance--ai.azurewebsites.net-00D4FF?style=for-the-badge)](https://aura-finance-ai.azurewebsites.net)
-
-_Making financial intelligence accessible to everyone_ 🚀
-
-</div>
+BUILT BY TEAM DAWN
