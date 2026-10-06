@@ -2,7 +2,7 @@
 
 **Your Personal AI Financial Advisor for India**
 
-_Powered by Azure OpenAI GPT-4.1 & a Multi-Agent Architecture, with real-time data via the Fi.Money MCP_
+_Powered by Azure OpenAI GPT-4.1 & a Multi‑Agent Architecture, with real‑time data via the Fi.Money MCP_
 
 [![Azure](https://img.shields.io/badge/Azure-Deployed-0089D6?style=for-the-badge&logo=microsoftazure)](https://azure.microsoft.com)
 [![Java](https://img.shields.io/badge/Java-21-007396?style=for-the-badge&logo=java)](https://openjdk.org/)
@@ -20,7 +20,7 @@ See AURA in action!
 
 https://github.com/user-attachments/assets/9b51bcbc-746c-40b7-bed6-de4b6bc509ea
 
-> **Note:** GitHub-hosted videos are muted by default due to browser restrictions — please unmute to hear the audio.
+> **Note:** GitHub‑hosted videos are muted by default due to browser restrictions — please unmute to hear the audio.
 
 <p align="center">
   Prefer YouTube? <a href="https://youtu.be/3q4uTliRNr8"><strong>Watch it here</strong></a>
@@ -30,35 +30,35 @@ https://github.com/user-attachments/assets/9b51bcbc-746c-40b7-bed6-de4b6bc509ea
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [AI Agents](#ai-agents)
-- [Quick Start](#quick-start)
-- [Deployment](#deployment)
-- [API Reference](#api-reference)
-- [Project Structure](#project-structure)
-- [Configuration](#configuration)
-- [Security](#security-features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- Overview
+- Features
+- Architecture
+- AI Agents
+- Quick Start
+- Deployment
+- API Reference
+- Project Structure
+- Configuration
+- Security
+- Contributing
+- License
+- Acknowledgments
 
 ---
 
 ## Overview
 
-**AURA** is an advanced AI-powered financial intelligence platform that combines **5 specialized AI agents** with real-time financial data from the **Fi.Money MCP** to deliver personalized financial strategies, quantitative analysis, and actionable insights for Indian investors.
+**AURA** is an advanced AI‑powered financial intelligence platform that combines five specialized AI agents with real‑time financial data from the Fi.Money MCP to deliver personalized financial strategies, quantitative analysis, and actionable insights for Indian investors.
 
 ### Key Highlights
 
-- Multi-Agent AI — five specialized financial AI agents working in orchestration
-- Real-Time Data — live financial data via Fi.Money MCP integration
-- MongoDB Atlas — persistent storage for users, chat history, and analyses
-- Azure Deployment — deployed on Microsoft Azure App Service
-- Modern UI — responsive design with glass-morphism aesthetics
-- Real-Time Chat — interactive financial consultation with live progress tracking
-- Secure Auth — Google OAuth + email-based authentication
+- Multi‑Agent AI – five specialized financial AI agents working in orchestration
+- Real‑Time Data – live financial data via Fi.Money MCP integration
+- MongoDB Atlas – persistent storage for users, chat history, and analyses
+- Azure Deployment – deployed on Microsoft Azure App Service
+- Modern UI – responsive design with glass‑morphism aesthetics
+- Real‑Time Chat – interactive financial consultation with live progress tracking
+- Secure Auth – Google OAuth + email‑based authentication
 
 ---
 
@@ -68,23 +68,23 @@ https://github.com/user-attachments/assets/9b51bcbc-746c-40b7-bed6-de4b6bc509ea
 
 | Feature | Description | Status |
 |---|---|---|
-| Multi-Agent AI | 5 specialized agents for comprehensive analysis | ✅ |
-| Fi.Money MCP | Real-time financial data integration | ✅ |
+| Multi‑Agent AI | 5 specialized agents for comprehensive analysis | ✅ |
+| Fi.Money MCP | Real‑time financial data integration | ✅ |
 | RAG Knowledge Base | Financial knowledge retrieval | ✅ |
 | Portfolio Analytics | Net worth, investments, transactions | ✅ |
 | Credit Reports | Credit score and history | ✅ |
-| Chat History | Persistent, user-isolated conversations | ✅ |
-| Demo Accounts | 3 pre-configured demo profiles | ✅ |
+| Chat History | Persistent, user‑isolated conversations | ✅ |
+| Demo Accounts | 3 pre‑configured demo profiles | ✅ |
 | Google OAuth | Secure authentication | ✅ |
 
 ### Dashboard Features
 
-- Net Worth Tracking — real-time portfolio valuation
-- Investment Analysis — mutual funds & stocks breakdown
-- Credit Score — credit report integration
-- Transaction History — recent financial activity
-- Portfolio Chart — visual asset allocation
-- Profile Shuffle — switch between demo MCP profiles
+- Net Worth Tracking – real‑time portfolio valuation
+- Investment Analysis – mutual funds & stocks breakdown
+- Credit Score – credit report integration
+- Transaction History – recent financial activity
+- Portfolio Chart – visual asset allocation
+- Profile Shuffle – switch between demo MCP profiles
 
 ---
 
@@ -123,7 +123,7 @@ https://github.com/user-attachments/assets/9b51bcbc-746c-40b7-bed6-de4b6bc509ea
 
 ## AI Agents
 
-AURA's intelligence comes from **5 specialized AI agents** powered by Azure OpenAI GPT-4.1:
+AURA's intelligence comes from **5 specialized AI agents** powered by Azure OpenAI GPT‑4.1:
 
 | Agent | Role | Capabilities |
 |---|---|---|
@@ -132,14 +132,6 @@ AURA's intelligence comes from **5 specialized AI agents** powered by Azure Open
 | **Doer** | Implementation | Action plans, platform guidance, timelines |
 | **Realist** | Market Intelligence | Data validation, market insights |
 | **Communicator** | User Engagement | Personalized responses, progress updates |
-
-### Agent Execution Strategy
-
-| Query Complexity | Agents Involved | Behavior |
-|---|---|---|
-| Simple | 2 agents | Fast response |
-| Medium | 3 agents | Balanced depth & speed |
-| Complex | All 5 agents | Parallel execution groups |
 
 ---
 
@@ -155,27 +147,25 @@ AURA's intelligence comes from **5 specialized AI agents** powered by Azure Open
 ### Local Development
 
 ```bash
-# 1. Clone the repository
+# Clone the repository
 git clone https://github.com/paridhi-raghuvanshi/AI-Powered-Financial-Intelligence-.git
 cd AI-Powered-Financial-Intelligence-
 
-# 2. Build the Java backend (Spring Boot)
+# Build the Java backend (Spring Boot)
 cd aura-platform-java
 ./mvnw clean package -DskipTests
 # Run the backend (default port 3000)
 java -jar target/*.jar &
 
-# 3. Set up front‑end environment variables
+# Set up front‑end environment variables
 cd ../aura-platform
 cp env.sample .env
 # Edit .env with your API keys
 
-# 4. Start the front‑end dev server
+# Start the front‑end dev server
 npm install
 npm run dev   # runs Vite on http://localhost:5173
 ```
-
-The back‑end runs on `http://localhost:3000` and the front‑end UI connects to it automatically.
 
 ### Environment Variables
 
@@ -203,14 +193,6 @@ NODE_ENV=development
 PORT=3000
 ```
 
-### Access Points
-
-| Endpoint | URL |
-|---|---|
-| Main App | http://localhost:3000 |
-| Dashboard | http://localhost:3000/dashboard.html |
-| API Health | http://localhost:3000/api/health |
-
 ---
 
 ## Deployment
@@ -218,26 +200,15 @@ PORT=3000
 ### Azure App Service
 
 ```bash
-# Login to Azure
 az login
-
-# Create resource group
 az group create --name aura-rg --location centralindia
-
-# Create App Service plan
 az appservice plan create --name aura-plan --resource-group aura-rg --sku B1 --is-linux
-
-# Create Web App
 az webapp create --resource-group aura-rg --plan aura-plan --name aura-finance --runtime "JAVA:21"
-
-# Configure environment variables
 az webapp config appsettings set --resource-group aura-rg --name aura-finance --settings \
-  AZURE_OPENAI_ENDPOINT="your-endpoint" \
-  AZURE_OPENAI_API_KEY="your-key" \
-  MONGODB_URI="your-mongodb-uri" \
-  FI_MCP_URL="your-mcp-url"
-
-# Deploy from GitHub
+  AZURE_OPENAI_ENDPOINT="your‑endpoint" \
+  AZURE_OPENAI_API_KEY="your‑key" \
+  MONGODB_URI="your‑mongodb‑uri" \
+  FI_MCP_URL="your‑mcp‑url"
 az webapp deployment source config --name aura-finance --resource-group aura-rg \
   --repo-url https://github.com/paridhi-raghuvanshi/AI-Powered-Financial-Intelligence-.git \
   --branch main --manual-integration
@@ -260,7 +231,7 @@ Content-Type: application/json
 }
 ```
 
-**Response:**
+Response example:
 
 ```json
 {
@@ -273,31 +244,12 @@ Content-Type: application/json
 }
 ```
 
-### Fi.Money MCP APIs
-
-| Endpoint | Method | Description |
-|---|---|---|
-| `/api/fi-mcp/net-worth` | `POST` | Get net worth data |
-| `/api/fi-mcp/transactions` | `POST` | Bank transactions |
-| `/api/fi-mcp/credit-report` | `POST` | Credit score & report |
-| `/api/fi-mcp/mf-transactions` | `POST` | Mutual fund data |
-| `/api/fi-mcp/stock-transactions` | `POST` | Stock holdings |
-
-### Chat Session APIs
-
-| Endpoint | Method | Description |
-|---|---|---|
-| `/api/chat/sessions/:userId` | `GET` | Get a user's chat sessions |
-| `/api/chat/session/:sessionId` | `GET` | Get a specific session |
-| `/api/chat/new` | `POST` | Create a new chat session |
-| `/api/chat/history/:sessionId` | `GET` | Get chat messages |
-
 ---
 
 ## Project Structure
 
 ```text
-AURA-THE-FINANCE-AI/
+AURA‑THE‑FINANCE‑AI/
 ├── aura-platform-java/               # Spring Boot backend
 │   ├── src/main/java/...            # Java source files
 │   └── pom.xml
@@ -317,32 +269,32 @@ AURA-THE-FINANCE-AI/
 
 | Component | Technology |
 |---|---|
-| AI Model | Azure OpenAI GPT-4.1 |
+| AI Model | Azure OpenAI GPT‑4.1 |
 | Backend | Java 21 + Spring Boot |
-| Real-time | WebSocket |
+| Real‑time | WebSocket |
 | Database | MongoDB Atlas |
 | Financial Data | Fi.Money MCP |
 | Authentication | Google OAuth + Email |
 | Deployment | Azure App Service |
 
+---
+
 ## Security Features
 
-- Rate limiting (100 requests / 15 min)
+- Rate limiting (100 requests / 15 min)
 - CORS protection
 - Helmet security headers
-- User-isolated chat history
+- User‑isolated chat history
 - Secure API key handling
 
 ---
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome!
-
 1. Fork the project
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create a feature branch (`git checkout -b feature/awesome-feature`)
+3. Commit your changes (`git commit -m "Add awesome feature"`)
+4. Push to the branch (`git push origin feature/awesome-feature`)
 5. Open a Pull Request
 
 ---
@@ -356,7 +308,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ## Acknowledgments
 
 - Microsoft Azure for cloud infrastructure
-- OpenAI for the GPT-4.1 language model
+- OpenAI for the GPT‑4.1 language model
 - Fi.Money for MCP financial data integration
 - MongoDB for database services
 
