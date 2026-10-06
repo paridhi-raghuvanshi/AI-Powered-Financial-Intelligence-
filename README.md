@@ -151,7 +151,8 @@ AURA's intelligence comes from **5 specialized AI agents** powered by Azure Open
 
 ### Prerequisites
 
-- **Node.js** 20+
+- **Java** 21+
+- **Maven** 3.9+
 - **MongoDB** (Atlas or local)
 - **Azure OpenAI** API access
 
@@ -162,18 +163,23 @@ AURA's intelligence comes from **5 specialized AI agents** powered by Azure Open
 git clone https://github.com/paridhi-raghuvanshi/AI-Powered-Financial-Intelligence-.git
 cd AI-Powered-Financial-Intelligence-
 
-# 2. Install dependencies
-cd aura-platform
-npm install
+# 2. Build the Java backend (Spring Boot)
+cd aura-platform-java
+./mvnw clean package -DskipTests
+# Run the backend (default port 3000)
+java -jar target/*.jar &
 
-# 3. Set up environment variables
+# 3. Set up front‑end environment variables
+cd ../aura-platform
 cp env.sample .env
 # Edit .env with your API keys
 
-# 4. Start the server
-npm start
-# Platform runs on http://localhost:3000
+# 4. Start the front‑end dev server
+npm install
+npm run dev   # runs Vite on http://localhost:5173
 ```
+
+The back‑end runs on `http://localhost:3000` and the front‑end UI connects to it automatically.
 
 ### Environment Variables
 
@@ -234,7 +240,7 @@ az group create --name aura-rg --location centralindia
 az appservice plan create --name aura-plan --resource-group aura-rg --sku B1 --is-linux
 
 # Create Web App
-az webapp create --resource-group aura-rg --plan aura-plan --name aura-finance --runtime "NODE:20-lts"
+az webapp create --resource-group aura-rg --plan aura-plan --name aura-finance --runtime "JAVA:21"
 
 # Configure environment variables
 az webapp config appsettings set --resource-group aura-rg --name aura-finance --settings \
@@ -245,7 +251,7 @@ az webapp config appsettings set --resource-group aura-rg --name aura-finance --
 
 # Deploy from GitHub
 az webapp deployment source config --name aura-finance --resource-group aura-rg \
-  --repo-url https://github.com/Aryanjstar/AURA---THE-FINANCE-AI \
+  --repo-url https://github.com/paridhi-raghuvanshi/AI-Powered-Financial-Intelligence-.git \
   --branch main --manual-integration
 ```
 
@@ -342,7 +348,7 @@ AURA-THE-FINANCE-AI/
 | Component | Technology |
 |---|---|
 | **AI Model** | Azure OpenAI GPT-4.1 |
-| **Backend** | Node.js + Express |
+| **Backend** | Java 21 + Spring Boot |
 | **Real-time** | Socket.IO |
 | **Database** | MongoDB Atlas |
 | **Financial Data** | Fi.Money MCP |
@@ -388,9 +394,9 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <div align="center">
 
-**Built with ❤️ by Team Trinethra**
+**Built with ❤️ by Paridhi Raghuvanshi**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Aryanjstar-181717?style=for-the-badge&logo=github)](https://github.com/Aryanjstar/AURA---THE-FINANCE-AI)
+[![GitHub](https://img.shields.io/badge/GitHub-paridhi-raghuvanshi-181717?style=for-the-badge&logo=github)](https://github.com/paridhi-raghuvanshi/AI-Powered-Financial-Intelligence-.git)
 [![Live Demo](https://img.shields.io/badge/Live-aura--finance--ai.azurewebsites.net-00D4FF?style=for-the-badge)](https://aura-finance-ai.azurewebsites.net)
 
 _Making financial intelligence accessible to everyone_ 🚀
