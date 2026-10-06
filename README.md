@@ -7,11 +7,11 @@
 _Powered by Azure OpenAI GPT-4.1 & a Multi-Agent Architecture, with real-time data via the Fi.Money MCP_
 
 [![Azure](https://img.shields.io/badge/Azure-Deployed-0089D6?style=for-the-badge&logo=microsoftazure)](https://azure.microsoft.com)
-[![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=nodedotjs)](https://nodejs.org/)
+[![Java](https://img.shields.io/badge/Java-21-007396?style=for-the-badge&logo=java)](https://openjdk.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)](https://mongodb.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-[![GitHub](https://img.shields.io/badge/GitHub-Aryanjstar-181717?style=for-the-badge&logo=github)](https://github.com/Aryanjstar/AURA---THE-FINANCE-AI)
+[![GitHub](https://img.shields.io/badge/GitHub-paridhi%20raghuvanshi-181717?style=for-the-badge&logo=github)](https://github.com/paridhi-raghuvanshi/AI-Powered-Financial-Intelligence-)
 [![Live Demo](https://img.shields.io/badge/Live-aura--finance--ai.azurewebsites.net-00D4FF?style=for-the-badge)](https://aura-finance-ai.azurewebsites.net)
 
 </div>
@@ -159,8 +159,8 @@ AURA's intelligence comes from **5 specialized AI agents** powered by Azure Open
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Aryanjstar/AURA---THE-FINANCE-AI.git
-cd AURA---THE-FINANCE-AI
+git clone https://github.com/paridhi-raghuvanshi/AI-Powered-Financial-Intelligence-.git
+cd AI-Powered-Financial-Intelligence-
 
 # 2. Install dependencies
 cd aura-platform
